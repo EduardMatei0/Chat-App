@@ -181,3 +181,25 @@ button:disabled {
     font-weight: 300;
     padding: 12px 24px 0 24px;
 }
+
+@media screen and (max-width: 800px) {
+    .compose {
+        padding: 0;
+        margin: 0 0 10px 10px;
+    }
+
+    .chat__sidebar {
+        width: 200px;
+    }
+
+    .compose form {
+        margin: 0;
+    }
+
+    .compose input {
+        width: 10%;
+    }
+    .compose form button {
+        display: none;
+    }
+  }
