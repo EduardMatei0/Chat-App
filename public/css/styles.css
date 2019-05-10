@@ -199,7 +199,7 @@ button:disabled {
     .compose input {
         width: 10%;
     }
-    .compose form button {
+    #send-location {
         display: none;
     }
   }
